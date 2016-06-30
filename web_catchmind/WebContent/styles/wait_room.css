@@ -1,0 +1,187 @@
+@CHARSET "UTF-8";
+
+.myroom{
+	position:relative;
+	background: url('../images/lobby/Lobby.png') 50% 0 no-repeat;
+	max-width: 1024px;
+	min-height: 768px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.room-info{
+	position:absolute;
+	left: 5%;
+	top: 15%;
+	width: 57%;
+}
+.room-label button{
+	margin-left: -3px;
+	margin-right: -3px;
+	padding: 0;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+.room-each{
+	max-height: 340px;
+	overflow-y: scroll;
+}
+.room-each ul{
+	padding-left: 0;
+	list-style: none;
+}
+.room-each ul li{
+	cursor: default;
+}
+.room-each ul li span{
+	display: inline-block;
+	text-align: center;
+}
+.room-each ul li .no{
+	width: 10%;
+}
+.room-each ul li .title{
+	width: 38%;
+	text-align: left;
+}
+.room-each ul li .leader{
+	width: 20%;
+}
+.room-each ul li .limit{
+	width: 10%;
+}
+.room-each ul li .private{
+	width: 9%;
+}
+.room-each ul li .start{
+	width: 9%;
+}
+.room-each select{
+	width: 100%;
+}
+.chat-content{
+	position: absolute; 
+	left: 5%;
+	top: 68.5%;
+	width: 57%;
+
+}
+.chat-content textarea{
+	width: 100%;
+	color: #00207a;
+}
+.chat-input{
+	position: absolute; 
+	left: 5.5%;
+	top: 90%;
+	width: 57%;
+}
+.chat-input input{
+	width: 90%;
+}
+.matching{
+	position: absolute; 
+	left: 60%;
+	top: 4%;
+	
+}
+.matching input{
+	width: 90px;
+	height: 35px;
+	text-align: center;
+	overflow: hidden;
+	background-color: #6bc633;
+	font-weight: bold;
+	color: #633913;
+}
+.button-group{
+	position: absolute; 
+	left: 9%;
+	top: 4%;
+}
+.user-info{
+	position:absolute;
+	left: 68.5%;
+	top: 15%;
+	width: 26%;
+}
+.user-info .user-label{
+	width: 100%;
+}
+.user-label button{
+	margin-left: -3px;
+	margin-right: -3px;
+	padding: 0;
+	-webkit-border-radius: 0px; 
+	border-radius: 0px;
+}
+.user-each{
+	overflow-y: scroll;
+	width: 100%;
+}
+.user-each ul{
+	list-style: none;
+	padding-left: 0;
+}
+.user-each ul li{
+	cursor: default;
+}
+.user-each ul li span{
+	display: inline-block;
+	text-align: center;
+	color: #1890D0;
+}
+.user-each ul li .idx{
+	width: 5%;
+}
+.user-each ul li .nickname{
+	width: 50%;
+	text-align: left;
+}
+.user-each ul li .level{
+	width: 22%;
+}
+.user-each ul li .position{
+	width: 20%;
+}
+.user-each select{
+	width: 100%;
+}
+.find-input{
+	position:absolute;
+	left: 68%;
+	top: 59%;
+	width: 10%;
+}
+.find-input input{
+	width: 100%;
+}
+
+.reject-invite{
+	position: absolute;
+	left: 86.5%;
+	top: 58%;
+}
+.reject-invite input{
+	
+}
+.my-avatar{
+	position:absolute;
+	left: 72.5%;
+	top: 71%;
+}
+.my-info{
+	position:absolute;
+	left: 83.5%;
+	top: 70.5%;
+	width: 7%;
+}
+.my-info span{
+	display: block;
+	margin-bottom: 4.5px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.my-info .myexp{
+	color: purple;
+}

@@ -1,0 +1,242 @@
+@CHARSET "UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+em, address, var {
+  font-style: normal;
+}
+.body_wrap {
+	position: relative;
+	width: 100%;
+	background:
+		url('http://c3.img.netmarble.kr/web/cp/catchmind/v/img/common/bg_body.jpg')
+		50% 0 no-repeat #186fbe;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: left;
+	width: 1000px;
+	z-index: 15;
+}
+
+.container:after {
+	display: block;
+	clear: both;
+	height: 0;
+	content: '';
+}
+
+.container .side_bar {
+	display: inline;
+	float: left;
+	margin: 6px 0 0 10px;
+	width: 25%;
+}
+#BeforeLogin {
+	border:0px;
+	position: relative;
+	width: 240px;
+	overflow: hidden;
+	overflow: hidden;
+	height: 140px;
+	background: url('http://c3.img.netmarble.kr/web/cp/catchmind/v/img/common/bg_login.gif') 0 0 no-repeat;
+}
+#BeforeLogin dl {
+	position: absolute;
+	top: 42px;
+	left: 26px;
+	width: 125px;
+	margin: 0;
+}
+#BeforeLogin dt {
+	display: none;
+}
+#BeforeLogin dd {
+	height: 26px;
+	margin-left:0px;
+ 
+}
+
+#BeforeLogin dd input {
+	margin: 2px 0 0;
+	padding: 2px 3px 0;
+	height: 22px;
+	width: 120px;
+	border: 0 !important;
+	background: transparent;
+	outline: none;
+}
+#BeforeLogin .link .l1 a {
+	display: block;
+	width: 38px;
+	height: 10px;
+	background: url('http://c3.img.netmarble.kr/web/cp/catchmind/v/img/common/bg_logbox.gif') 0 0 no-repeat;
+}
+#BeforeLogin .link .l2 {
+	left: 85px;
+	padding: 0 11px 0 0;
+	background: url('http://c3.img.netmarble.kr/web/cp/catchmind/v/img/common/bg_bar.gif') 100% 0 no-repeat;
+}
+#BeforeLogin .lgn {
+	position: absolute;
+	top: 48px;
+	left: 158px;
+	width: 61px;
+	height: 50px;
+	cursor: pointer;
+	background: url('http://c3.img.netmarble.kr/web/cp/catchmind/v/img/common/btn_login.gif') 0 0 no-repeat;
+}
+
+#AfterLogin {
+	  position: relative;
+	  width: 240px;
+	  height: 209px;
+	  background: url('http://c3.img.netmarble.kr/web/cp/catchmind/v/img/common/bg_logined.gif') no-repeat;
+}
+#AfterLogin .avatar {
+	  position: absolute;
+	  left: 10px;
+	  top: 11px;
+	  width: 91px;
+	  height: 93px;
+	  background: url('http://c3.img.netmarble.kr/web/cp/catchmind/v/img/common/bg_avatar.gif') no-repeat;
+}
+
+#AfterLogin .info1 {
+	  position: absolute;
+	  top: 12px;
+	  left: 75px;
+	  list-style: none;
+	  margin-left: 0;
+}
+#AfterLogin .info1 li.f, .info2 li.f {
+  	background: none;
+}
+#AfterLogin .info1 li {
+	  padding: 7px 0 5px;
+	  width: 115px;
+	  color: #081218;
+	  font-size: 11px;
+	  letter-spacing: -1px;
+	  background: url('http://c3.img.netmarble.kr/web/cp/catchmind/v/img/common/line_loginf1.gif') 0 0 no-repeat;
+}
+#AfterLogin .info1 li.f em {
+	  display: block;
+	  width: 60px;
+}
+#AfterLogin .info1 li em {
+	  display: inline-block;
+	  color: #316e91;
+	  width: 37px;
+}
+#AfterLogin .info2 {
+	  position: absolute;
+	  top: 107px;
+	  left: 16px;
+	  padding: 1px 0;
+	  width: 208px;
+	  background: url('http://c3.img.netmarble.kr/web/cp/catchmind/v/img/common/bg_login_inf2.gif') 50% 0 repeat-y;
+}
+#AfterLogin .info2 ul {
+	list-style: none;
+	  padding: 2px 5px;
+	  width: 198px;
+	  background: #3aa2ed;
+}
+#AfterLogin .info2 ul li {
+	  position: relative;
+	  padding: 8px 0 5px 5px;
+	  width: 193px;
+	  color: #fff;
+	  font-size: 11px;
+	  letter-spacing: -1px;
+	  background: url('http://c3.img.netmarble.kr/web/cp/catchmind/v/img/common/line_loginf2.gif') 0 0 no-repeat;
+}
+
+#AfterLogin .info2 ul li strong {
+	  position: absolute;
+	  top: 7px;
+	  right: 55px;
+	  width: 78px;
+	  color: #fff200;
+	  font-size: 12px;
+	  text-align: right;
+}
+
+.join{
+	position: absolute;
+	top: 100px;
+}
+.join ul{
+	list-style: none;
+}
+.join ul li{
+	display: inline-block;
+	font-family: 'Hanna';
+	margin: 0 10px;
+}
+.join ul li a{
+	color: black;
+}
+.logout{
+	position: absolute;
+	top: 170px;
+}
+.logout ul{
+	list-style: none;
+}
+.logout ul li{
+	display: inline-block;
+	font-family: 'Hanna';
+}
+.logout ul li a{
+	color: black;
+}
+.footer{
+	clear: both;
+  	position: relative;
+  	text-align: center;
+  	padding: 20px;
+}
+.footer .copyright{
+	margin: 0 auto;
+	border-top: 2px solid #D8D8D8;
+	padding: 20px 0px;
+}
+
+.ranking{
+	margin-top: 100px;
+	text-align: center;
+}
+.ranking .title{
+	width:40%;
+	margin: 0 auto;
+	background: url('http://c3.img.netmarble.kr/web/cp/catchmind/v/img/main/tit_rank.gif') no-repeat;
+	height: 30px;
+}
+.ranking .list{
+	width:40%;
+	margin: 0 auto;
+}
+.ranking .list table{
+	color: #b5d1eb;
+	font-family: '돋움',dotum,AppleGothic,verdana;
+	font-size: 14px;
+}
+
+.ranking .list table tr{
+	background: url('http://c3.img.netmarble.kr/web/cp/catchmind/v/img/main/line_rank.gif') 0 0 repeat-x;
+	padding: 20px;
+	margin: 20px;
+	height: 40px;
+}
+.ranking .list table .order{
+	text-align: center;
+}
+.ranking .list table .nickname{
+	text-align: left;
+}
+.ranking .list table .point{
+	text-align: right;
+}
